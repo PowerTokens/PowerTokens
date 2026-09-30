@@ -63,6 +63,6 @@ AI video apps · image tools · agents · multi-model SaaS · content pipelines
 
 ---
 
-**Get free credits to start building** — [powertokens.ai](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org)
+**Start building** — [powertokens.ai](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org). New-user bonus Credits are offered only while a promotion is running; otherwise add Credits on the Billing page.
 
 If you find these repos useful, a ⭐ helps other developers discover them.
