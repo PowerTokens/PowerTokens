@@ -1,6 +1,6 @@
 # PowerTokens
 
-> 🎬 **New:** [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio) — free Windows app for Wan 3.0 batch video<!-- promo:start --> · Wan 3.0 limited-time discount until Oct 7<!-- promo:end -->
+> 🎬 **New:** [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio) 1.12 — free desktop + [web](https://powertokens.github.io/video-studio-web/) app for Wan · Seedance · Kling
 
 ### One API. Multiple AI models.
 
@@ -37,7 +37,7 @@ One API. One integration. Multiple models.
 
 | Repository | Description |
 |------------|-------------|
-| [video-studio](https://github.com/PowerTokens/video-studio) | Free Windows app for Wan 3.0 batch video (English/Chinese UI) |
+| [video-studio](https://github.com/PowerTokens/video-studio) | Free desktop + [web](https://powertokens.github.io/video-studio-web/) Video Studio 1.12 — Wan · Seedance · Kling (English/Chinese UI) |
 | [python-examples](https://github.com/PowerTokens/python-examples) | Python + OpenAI SDK quickstart |
 | [typescript-examples](https://github.com/PowerTokens/typescript-examples) | Node / TypeScript quickstart |
 | [awesome-chinese-model-apis](https://github.com/PowerTokens/awesome-chinese-model-apis) | Curated list of Chinese model APIs / gateways |
