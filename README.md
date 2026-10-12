@@ -78,7 +78,7 @@ Yes. Point any OpenAI SDK at `https://api.powertokens.ai/v1` and use one PowerTo
 
 ### Does it work with Claude Code or Codex?
 
-Yes. PowerTokens also serves the Anthropic Messages format for Claude Code and the OpenAI Responses format for Codex, and the docs have setup guides for [Claude Code](https://docs.powertokens.ai/en/ecosystem-tools/claude-code?utm_source=github&utm_medium=readme&utm_campaign=faq), opencode, Kilo Code, Hermes Agent and OpenClaw.
+Yes. PowerTokens also serves the Anthropic Messages format for Claude Code and the OpenAI Responses format for Codex, and the docs have setup guides for [Claude Code](https://docs.powertokens.ai/en/ecosystem-tools/claude-code?utm_source=github&utm_medium=readme&utm_campaign=faq), [opencode](https://docs.powertokens.ai/en/ecosystem-tools/opencode?utm_source=github&utm_medium=readme&utm_campaign=faq), [Kilo Code](https://docs.powertokens.ai/en/ecosystem-tools/kilo-code?utm_source=github&utm_medium=readme&utm_campaign=faq), [Hermes Agent](https://docs.powertokens.ai/en/ecosystem-tools/hermes-agent?utm_source=github&utm_medium=readme&utm_campaign=faq), [OpenClaw](https://docs.powertokens.ai/en/ecosystem-tools/openclaw?utm_source=github&utm_medium=readme&utm_campaign=faq) and [WorkBuddy](https://docs.powertokens.ai/en/ecosystem-tools/workbuddy?utm_source=github&utm_medium=readme&utm_campaign=faq). For apps and the terminal, see also [Vercel AI SDK](https://docs.powertokens.ai/en/guides/vercel-ai-sdk?utm_source=github&utm_medium=readme&utm_campaign=faq) and [PowerTokens CLI](https://docs.powertokens.ai/en/guides/powertokens-cli?utm_source=github&utm_medium=readme&utm_campaign=faq).
 
 ### How do I pay?
 
