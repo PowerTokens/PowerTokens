@@ -1,91 +1,47 @@
 # PowerTokens
 
-> 🎬 **New:** [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio) 1.12 — free desktop + [web](https://powertokens.github.io/video-studio-web/) app for Wan · Seedance · Kling
+**One OpenAI-compatible API for Chinese AI models — video, image, audio and LLMs (Seedance · Wan · Kling · Qwen · GLM · MiniMax · DeepSeek V3.2). No Chinese account required.**
 
-### One API. Multiple AI models.
+## 🎬 Video Studio 1.12 — free & open source
 
-Unified API for **video, image, audio, and LLMs** — **no Chinese account required.**
+<a href="https://github.com/PowerTokens/video-studio"><img src="https://raw.githubusercontent.com/PowerTokens/video-studio/main/docs/images/showcase-locker.gif" width="480" alt="Clip generated with Wan 3.0 in PowerTokens Video Studio"></a>
 
-Build with Seedance · Kling · Wan · Qwen · GLM · DeepSeek · MiniMax and more through a single OpenAI-compatible integration.
+Batch, compare and storyboard videos with Wan · Seedance · Kling and more.
 
----
+**[▶ Open the web app](https://powertokens.github.io/video-studio-web/)** · **[⬇ Windows desktop app](https://github.com/PowerTokens/video-studio/releases/latest)** · **[Sign up](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org)**
 
-## Build with PowerTokens
+## Repositories
 
-Instead of integrating every provider separately:
+| Repo | What it is |
+|------|------------|
+| [video-studio](https://github.com/PowerTokens/video-studio) | Free Windows desktop + MCP Video Studio (batch / compare / storyboard) |
+| [video-studio-web](https://github.com/PowerTokens/video-studio-web) | Web UI companion — runs in the browser |
+| [python-examples](https://github.com/PowerTokens/python-examples) | Python + OpenAI SDK quickstart |
+| [typescript-examples](https://github.com/PowerTokens/typescript-examples) | Node / TypeScript + OpenAI SDK quickstart |
+| [pt-usage-dashboard](https://github.com/PowerTokens/pt-usage-dashboard) | Offline usage & cost dashboard (single HTML file, EN/中文) |
+| [awesome-chinese-model-apis](https://github.com/PowerTokens/awesome-chinese-model-apis) | Curated list of Chinese model APIs and gateways |
 
-```text
-Your Application
-       │
-       ▼
- PowerTokens API
-       │
- ┌─────┼─────────────┐
- ▼     ▼             ▼
-Video  Image        LLM
- │      │             │
-Seedance …         Qwen
-Kling              GLM
-Wan                DeepSeek
+## Quickstart
+
+Base URL for OpenAI-compatible SDKs: `https://api.powertokens.ai/v1`
+
+```python
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["POWERTOKENS_API_KEY"],
+    base_url="https://api.powertokens.ai/v1",
+)
+resp = client.chat.completions.create(
+    model="MiniMax-M3",
+    messages=[{"role": "user", "content": "Describe Paris in one sentence."}],
+)
+print(resp.choices[0].message.content)
 ```
 
-One API. One integration. Multiple models.
+**Links:** [Website](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org) · [Docs](https://docs.powertokens.ai/en/guides/powertokens-quickstart?utm_source=github&utm_medium=profile&utm_campaign=org) · [Models](https://www.powertokens.ai/en/models?utm_source=github&utm_medium=profile&utm_campaign=org) · [Discord](https://discord.gg/JtgtRdhJVS)
 
 ---
 
-## Developer resources
-
-| Repository | Description |
-|------------|-------------|
-| [video-studio](https://github.com/PowerTokens/video-studio) | Free desktop + [web](https://powertokens.github.io/video-studio-web/) Video Studio 1.12 — Wan · Seedance · Kling (English/Chinese UI) |
-| [python-examples](https://github.com/PowerTokens/python-examples) | Python + OpenAI SDK quickstart |
-| [typescript-examples](https://github.com/PowerTokens/typescript-examples) | Node / TypeScript quickstart |
-| [awesome-chinese-model-apis](https://github.com/PowerTokens/awesome-chinese-model-apis) | Curated list of Chinese model APIs / gateways |
-
----
-
-## Explore by modality
-
-**Video:** Seedance · Kling · Wan · more  
-**LLM:** Qwen · GLM · DeepSeek · MiniMax · more
-
----
-
-## Get started
-
-- **Website:** [powertokens.ai](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org)
-- **Docs:** [docs.powertokens.ai](https://docs.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org)
-- **API keys:** [powertokens.ai/en/api-keys](https://www.powertokens.ai/en/api-keys?utm_source=github&utm_medium=profile&utm_campaign=org)
-- **Community:** [Discord](https://discord.gg/JtgtRdhJVS)
-
----
-
-## What you can build
-
-AI video apps · image tools · agents · multi-model SaaS · content pipelines
-
----
-
-## FAQ
-
-### What is PowerTokens?
-
-PowerTokens is one API for Chinese AI models, including Qwen, GLM, MiniMax, DeepSeek V3.2, Seedance, Kling and Wan, covering video, image, audio and LLMs. You don't need a Chinese account or phone number.
-
-### Is there an OpenAI-compatible API for Chinese models?
-
-Yes. Point any OpenAI SDK at `https://api.powertokens.ai/v1` and use one PowerTokens API key for every model ([quickstart](https://docs.powertokens.ai/en/guides/api-key-and-model-call?utm_source=github&utm_medium=readme&utm_campaign=faq)).
-
-### Does it work with Claude Code or Codex?
-
-Yes. PowerTokens also serves the Anthropic Messages format for Claude Code and the OpenAI Responses format for Codex, and the docs have setup guides for [Claude Code](https://docs.powertokens.ai/en/ecosystem-tools/claude-code?utm_source=github&utm_medium=readme&utm_campaign=faq), [opencode](https://docs.powertokens.ai/en/ecosystem-tools/opencode?utm_source=github&utm_medium=readme&utm_campaign=faq), [Kilo Code](https://docs.powertokens.ai/en/ecosystem-tools/kilo-code?utm_source=github&utm_medium=readme&utm_campaign=faq), [Hermes Agent](https://docs.powertokens.ai/en/ecosystem-tools/hermes-agent?utm_source=github&utm_medium=readme&utm_campaign=faq), [OpenClaw](https://docs.powertokens.ai/en/ecosystem-tools/openclaw?utm_source=github&utm_medium=readme&utm_campaign=faq) and [WorkBuddy](https://docs.powertokens.ai/en/ecosystem-tools/workbuddy?utm_source=github&utm_medium=readme&utm_campaign=faq). For apps and the terminal, see also [Vercel AI SDK](https://docs.powertokens.ai/en/guides/vercel-ai-sdk?utm_source=github&utm_medium=readme&utm_campaign=faq) and [PowerTokens CLI](https://docs.powertokens.ai/en/guides/powertokens-cli?utm_source=github&utm_medium=readme&utm_campaign=faq).
-
-### How do I pay?
-
-By credit card or PayPal on the Billing page ([getting started](https://docs.powertokens.ai/en/guides/powertokens-quickstart?utm_source=github&utm_medium=readme&utm_campaign=faq)).
-
----
-
-**Start building** — [powertokens.ai](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org). New-user bonus Credits are offered only while a promotion is running; otherwise add Credits on the Billing page.
-
-If you find these repos useful, a ⭐ helps other developers discover them.
+中文：PowerTokens 一个接口调用国产视频 / 图像 / 大模型，无需国内账号 · [网页版 Video Studio](https://powertokens.github.io/video-studio-web/) · [文档](https://docs.powertokens.ai/)
