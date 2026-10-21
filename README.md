@@ -40,6 +40,8 @@ resp = client.chat.completions.create(
 print(resp.choices[0].message.content)
 ```
 
+Also documented: `MiniMax-M3.1-Flash` (1M context; docs OpenAPI — pricing page not listed yet).
+
 **Links:** [Website](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org) · [Docs](https://docs.powertokens.ai/en/guides/powertokens-quickstart?utm_source=github&utm_medium=profile&utm_campaign=org) · [Models](https://www.powertokens.ai/en/models?utm_source=github&utm_medium=profile&utm_campaign=org) · [Discord](https://discord.gg/JtgtRdhJVS)
 
 ---
