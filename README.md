@@ -42,6 +42,19 @@ print(resp.choices[0].message.content)
 
 Also documented: `MiniMax-M3.1-Flash` (1M context; docs OpenAPI — pricing page not listed yet).
 
+
+## Add to Magpie
+
+[Magpie](https://usemagpie.ai) is a menu-bar model switcher that accepts any OpenAI-compatible endpoint. One click adds PowerTokens (paste your API key when Magpie asks):
+
+**[Add PowerTokens to Magpie](https://usemagpie.ai/import#name=PowerTokens&chat=https%3A%2F%2Fapi.powertokens.ai%2Fv1&website=https%3A%2F%2Fwww.powertokens.ai&keys=https%3A%2F%2Fwww.powertokens.ai&icon=https%3A%2F%2Fmintcdn.com%2Flimeng%2FzD0DUekyzNPZUB5p%2Flogo%2Flogo2.svg)**
+
+Or in a terminal (with Magpie installed):
+
+```sh
+magpie import 'magpie://import?name=PowerTokens&chat=https://api.powertokens.ai/v1'
+```
+
 **Links:** [Website](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org) · [Docs](https://docs.powertokens.ai/en/guides/powertokens-quickstart?utm_source=github&utm_medium=profile&utm_campaign=org) · [Models](https://www.powertokens.ai/en/models?utm_source=github&utm_medium=profile&utm_campaign=org) · [Discord](https://discord.gg/JtgtRdhJVS)
 
 ---
