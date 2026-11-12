@@ -1,6 +1,6 @@
 # PowerTokens
 
-**One OpenAI-compatible API for Chinese AI models — video, image, audio and LLMs (Seedance · Wan · Kling · Qwen · GLM · MiniMax · DeepSeek V3.2). No Chinese account required.**
+**One OpenAI-compatible API for Chinese AI models — video, image, audio and LLMs (Seedance · Wan · Kling · Qwen · GLM · MiniMax · DeepSeek). No Chinese account required.**
 
 ## 🎬 Video Studio 1.17 — free & open source
 
