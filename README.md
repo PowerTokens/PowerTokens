@@ -20,7 +20,7 @@ If you use Video Studio, a star on [video-studio](https://github.com/PowerTokens
 | [video-studio-web](https://github.com/PowerTokens/video-studio-web) | Web UI companion — chat, generate, and in-app credit top-up in the browser |
 | [python-examples](https://github.com/PowerTokens/python-examples) | Python + OpenAI SDK quickstart |
 | [typescript-examples](https://github.com/PowerTokens/typescript-examples) | Node / TypeScript + OpenAI SDK quickstart |
-| [pt-usage-dashboard](https://github.com/PowerTokens/pt-usage-dashboard) | Offline usage & cost dashboard (single HTML file, EN/中文) |
+| [pt-usage-dashboard](https://github.com/PowerTokens/pt-usage-dashboard) | Offline usage & cost dashboard (single HTML file, EN/中文) — [open the dashboard](https://powertokens.github.io/pt-usage-dashboard/) |
 | [awesome-chinese-model-apis](https://github.com/PowerTokens/awesome-chinese-model-apis) | Curated list of Chinese model APIs and gateways |
 
 ## Quickstart
@@ -57,8 +57,8 @@ Or in a terminal (with Magpie installed):
 magpie import 'magpie://import?name=PowerTokens&chat=https://api.powertokens.ai/v1'
 ```
 
-**Links:** [Website](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org) · [Docs](https://docs.powertokens.ai/en/guides/powertokens-quickstart?utm_source=github&utm_medium=profile&utm_campaign=org) · [Models](https://www.powertokens.ai/en/models?utm_source=github&utm_medium=profile&utm_campaign=org) · [Discord](https://discord.gg/JtgtRdhJVS)
+**Links:** [Website](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org) · [Docs](https://docs.powertokens.ai/en/guides/powertokens-quickstart?utm_source=github&utm_medium=profile&utm_campaign=org) · [Models](https://www.powertokens.ai/en/models?utm_source=github&utm_medium=profile&utm_campaign=org) · [Usage dashboard](https://powertokens.github.io/pt-usage-dashboard/) · [Discord](https://discord.gg/JtgtRdhJVS)
 
 ---
 
-中文：PowerTokens 一个接口调用国产视频 / 图像 / 大模型，无需国内账号 · [网页版 Video Studio](https://powertokens.github.io/video-studio-web/)（对话出片、应用内充值）· [Windows 桌面版](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio.exe) · [Mac Beta](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio-macOS-arm64.dmg)（桌面版同样支持应用内充值）· [文档](https://docs.powertokens.ai/) · 如果觉得 Video Studio 有用，欢迎给 [video-studio](https://github.com/PowerTokens/video-studio) 点个星。
+中文：PowerTokens 一个接口调用国产视频 / 图像 / 大模型，无需国内账号 · [网页版 Video Studio](https://powertokens.github.io/video-studio-web/)（对话出片、应用内充值）· [Windows 桌面版](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio.exe) · [Mac Beta](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio-macOS-arm64.dmg)（桌面版同样支持应用内充值）· [文档](https://docs.powertokens.ai/) · [用量看板](https://powertokens.github.io/pt-usage-dashboard/) · 如果觉得 Video Studio 有用，欢迎给 [video-studio](https://github.com/PowerTokens/video-studio) 点个星。
