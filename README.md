@@ -2,11 +2,11 @@
 
 **One OpenAI-compatible API for Chinese AI models — video, image, audio and LLMs (Seedance · Wan · Kling · Qwen · GLM · MiniMax · DeepSeek). No Chinese account required.**
 
-## 🎬 Video Studio 1.19 — free & open source
+## 🎬 Video Studio 1.20 — free & open source
 
 <a href="https://github.com/PowerTokens/video-studio"><img src="https://raw.githubusercontent.com/PowerTokens/video-studio/main/docs/images/showcase-locker.gif" width="480" alt="Clip generated with Wan 3.0 in PowerTokens Video Studio"></a>
 
-Chat, batch, compare and storyboard videos with Wan · Seedance · Kling and more. Available on the web, on Windows, and as an unsigned Apple Silicon Mac Beta. After you sign in, you can also top up credits in the app — on the web and on the desktop.
+Chat, batch, compare and storyboard videos with Wan · Seedance · Kling and more. On the Generate tab, you can also ask AI to help plan the prompt. Available on the web, on Windows, and as an unsigned Apple Silicon Mac Beta. After you sign in, you can also top up credits in the app — on the web and on the desktop.
 
 **[▶ Open the web app](https://powertokens.github.io/video-studio-web/)** · **[⬇ Windows](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio.exe)** · **[⬇ Mac (Apple Silicon Beta)](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio-macOS-arm64.dmg)** · **[Sign up](https://www.powertokens.ai/?utm_source=github&utm_medium=profile&utm_campaign=org)**
 
@@ -16,8 +16,8 @@ If you use Video Studio, a star on [video-studio](https://github.com/PowerTokens
 
 | Repo | What it is |
 |------|------------|
-| [video-studio](https://github.com/PowerTokens/video-studio) | Windows and unsigned Apple Silicon Mac Beta desktop + MCP (chat, batch, compare, storyboard, in-app credit top-up) |
-| [video-studio-web](https://github.com/PowerTokens/video-studio-web) | Web UI companion — chat, generate, and in-app credit top-up in the browser |
+| [video-studio](https://github.com/PowerTokens/video-studio) | Windows and unsigned Apple Silicon Mac Beta desktop + MCP (chat, AI planning, batch, compare, storyboard, in-app credit top-up) |
+| [video-studio-web](https://github.com/PowerTokens/video-studio-web) | Web UI companion — chat, generate, AI planning, and in-app credit top-up in the browser |
 | [python-examples](https://github.com/PowerTokens/python-examples) | Python + OpenAI SDK quickstart |
 | [typescript-examples](https://github.com/PowerTokens/typescript-examples) | Node / TypeScript + OpenAI SDK quickstart |
 | [pt-usage-dashboard](https://github.com/PowerTokens/pt-usage-dashboard) | Offline usage & cost dashboard (single HTML file, EN/中文) — [open the dashboard](https://powertokens.github.io/pt-usage-dashboard/) |
@@ -61,4 +61,4 @@ magpie import 'magpie://import?name=PowerTokens&chat=https://api.powertokens.ai/
 
 ---
 
-中文：PowerTokens 一个接口调用国产视频 / 图像 / 大模型，无需国内账号 · [网页版 Video Studio](https://powertokens.github.io/video-studio-web/)（对话出片、应用内充值）· [Windows 桌面版](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio.exe) · [Mac Beta](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio-macOS-arm64.dmg)（桌面版同样支持应用内充值）· [文档](https://docs.powertokens.ai/) · [用量看板](https://powertokens.github.io/pt-usage-dashboard/) · 如果觉得 Video Studio 有用，欢迎给 [video-studio](https://github.com/PowerTokens/video-studio) 点个星。
+中文：PowerTokens 一个接口调用国产视频 / 图像 / 大模型，无需国内账号 · [网页版 Video Studio](https://powertokens.github.io/video-studio-web/)（对话出片、生成页 AI 构思、应用内充值）· [Windows 桌面版](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio.exe) · [Mac Beta](https://github.com/PowerTokens/video-studio/releases/latest/download/PowerTokensVideoStudio-macOS-arm64.dmg)（桌面版同样支持应用内充值）· [文档](https://docs.powertokens.ai/) · [用量看板](https://powertokens.github.io/pt-usage-dashboard/) · 如果觉得 Video Studio 有用，欢迎给 [video-studio](https://github.com/PowerTokens/video-studio) 点个星。
